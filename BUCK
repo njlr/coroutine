@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 cxx_library(
-  name = 'boost-coroutine',
+  name = 'coroutine',
   header_namespace = 'boost/coroutine',
   exported_headers = subdir_glob([
     ('include/boost/coroutine', '**/*.hpp'),
